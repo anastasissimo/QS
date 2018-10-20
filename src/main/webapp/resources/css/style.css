@@ -1,0 +1,347 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body{
+    background-color: #EDEDED;
+    font-family: "PT Sans";
+    background-size: cover;
+}
+.bodyWithBg{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+input{
+    width:-webkit-fill-available;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 7px 7px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid #62c0d4;
+    background-color: #62c0d4;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: large !important;
+    outline: 0 !important;
+}
+button:hover{
+    background-color: rgba(98,192,212,0.8);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
+}
+
+a{
+    text-decoration: none;
+    font-size: larger;
+}
+.registerButton{
+    background-color: white;
+    border: 1px solid white;
+    color: #222
+}
+.registerButton:hover {
+    background-color: #b6b6b6;
+    border: 1px solid #b6b6b6;
+
+}
+.errorButton {
+    border: 1px solid #E71010;
+    background-color: #E71010;
+}
+.errorButton:hover{
+    background-color: rgba(213,49,37,0.8);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.smallErrorButton:hover {
+    background-color: rgba(213,49,37,0.8);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.loginContainer {
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+    height: auto;
+    margin-top: 25vh;
+    border: 2px solid #b6b6b6;
+    padding: 20px;
+    border-radius: 10px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.signUpContainer {
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+    height: auto;
+    margin-top: 15vh;
+    border: 2px solid #b6b6b6;
+    padding: 20px;
+    border-radius: 10px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.mainContainer {
+    background-color: white;
+    width: inherit;
+    border: 2px solid #b6b6b6;
+    padding: 20px;
+    border-radius: 10px ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+.singleTestContainer {
+    border: 1px solid #999;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.topMenu {
+    background-color: #62c0d4;
+    height: 70px;
+    width: calc(100% + 16px);
+    display: flex;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.menuHeader {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: -10px;
+}
+.topMenuSvg {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.containerHeader{
+    font-size: x-large;
+}
+.containerLargerHeader{
+    font-size: xx-large;
+}
+.smallButton {
+    border: 1px solid #62c0d4;
+    background-color: #62c0d4;
+    border-radius: 5px;
+    padding: 3px 6px;
+    color: white;
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.smallErrorButton {
+    border: 1px solid #E71010;
+    background-color: #E71010;
+    border-radius: 5px;
+    padding: 3px 6px;
+    color: white;
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.smallGreenButton:hover {
+    background-color: rgba(102, 200, 92, 0.7);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.smallGreenButton {
+    border: 1px solid #32CC4A;
+    background-color: #32CC4A;
+    border-radius: 5px;
+    padding: 3px 6px;
+    color: white;
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.greenButton {
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    font-size: large !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #32CC4A;
+    background-color: #32CC4A;
+}
+.greenButton:hover{
+    background-color: rgba(102, 200, 92, 0.7);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.singleReqContainer {
+    border: 1px solid #999;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.checkboxWrap {
+    margin-right: 20px;
+    padding-top: 15px;
+}
+.checkboxWrapPadd{
+    margin-right: 20px;
+    padding-top: 18px;
+}
+.inputWrap {
+    padding-top: 15px;
+    width: 100%;
+}
+.subHeader {
+    font-size: larger;
+    font-style: italic;
+}
+.buttonContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inputContainer{
+    margin-top: 50px;
+}
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 7px;
+    background: #fff;
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #62c0d4; }
+
+
+.deleteIcon:hover {
+    fill: #BB0600;
+}
+
+.deleteIconContainer {
+    margin-top: 17px;
+    margin-left: 15px;
+}
+@media (max-width: 700px) {
+    .buttonContainer {
+        display: block;
+    }
+    button {
+        margin-bottom: 10px;
+    }
+    .loginContainer {
+        height: max-content;
+    }
+    body {
+        font-size: 30px;
+    }
+    .registerAsTutor{
+        font-size: 20px;
+    }
+}
+@media (orientation: portrait) {
+    .topMenu {
+        background-color: #62c0d4;
+        height: 100px;
+        width: calc(100% + 16px);
+        display: flex;
+        font-size: 40px;
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-bottom: 40px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    button {
+        margin-bottom: 10px;
+    }
+    .loginContainer {
+        height: max-content;
+    }
+    body {
+        font-size: 30px;
+    }
+    .registerAsTutor{
+        font-size: 20px;
+    }
+    .loginContainer{
+        width: auto;
+        margin-left: 0;
+        display: block;
+        height: fit-content;
+        margin-top: 15vh;
+    }
+    input {
+        line-height: 30px;
+        font-size: 30px;
+    }
+    button {
+        font-size: 30px;
+    }
+    .menuHeader {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+        margin-top: 25px;
+        margin-left: -10px;
+    }
+    .topMenuSvg {
+        margin-top: 25px;
+    }
+}
