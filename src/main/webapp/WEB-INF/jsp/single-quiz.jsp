@@ -20,11 +20,12 @@
         Tutor
     </div>
 </div>
-<div class="mainContainer">
     <p class="containerHeader">Редактрирование теста ${quizName}</p>
 
     <c:forEach items="${questionList}" var="question">
-        <input value="<c:out value="${question.questionText}" />">
+        <div class="mainContainer">
+
+<input value="<c:out value="${question.questionText}" />">
         <c:forEach items="${question.answers}" var="answer">
             <div class="singleTestContainer" style="background-color: #EDEDED" id="${question.id}">
                 <div class="checkboxWrapPadd">
@@ -41,10 +42,9 @@
             </div>
         </c:forEach>
         <button class="greenButton">save question</button>
+        </div>
+
     </c:forEach>
 
-</div>
-<a href="tutor.jsp">назад к tutor</a>
-
 </body>
-</html>/
+</html>

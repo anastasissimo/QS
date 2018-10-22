@@ -13,6 +13,5 @@
 <body>
 hello
 
-<a href="login.jsp">go here</a>
 </body>
 </html>

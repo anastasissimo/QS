@@ -82,6 +82,5 @@
 
 
     </div>
-<a href="/select-user-type">go back</a>
 </body>
 </html>

@@ -21,34 +21,6 @@
 </div>
 <p class="containerLargerHeader"> @тестнейм</p>
 
-<div class="mainContainer">
-    <p class="containerHeader"> Вопрос номер раз: почему у меня плохой ui?</p>
-    <div class="singleTestContainer" style="background-color: #EDEDED">
-
-        <div class="checkboxWrap"> <input type="checkbox" />  </div>
-        <p>вариант ответа</p>
-    </div>
-
-    <div class="singleTestContainer" style="background-color: #EDEDED">
-
-        <div class="checkboxWrap"> <input type="checkbox" />  </div>
-        <p>вариант ответа</p>
-    </div>
-
-    <div class="singleTestContainer" style="background-color: #EDEDED">
-
-        <div class="checkboxWrap"> <input type="checkbox" />  </div>
-        <p>вариант ответа</p>
-    </div>
-
-    <div class="singleTestContainer" style="background-color: #EDEDED">
-
-        <div class="checkboxWrap"> <input type="checkbox" />  </div>
-        <p>вариант ответа</p>
-    </div>
-    <button>submit question</button>
-
-</div>
 
 <c:forEach items="${questionListStu}" var="quiz">
 <div class="mainContainer">
@@ -59,7 +31,7 @@
             <div class="checkboxWrapPadd">
                 <input type="checkbox" />
             </div>
-            <div class="inputWrap">
+            <div class="inputWrapAnsw">
                <p><c:out value="${answer.variant}"/></p>
             </div>
         </div>

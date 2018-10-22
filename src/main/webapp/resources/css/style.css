@@ -101,7 +101,9 @@ a{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin-bottom: 20px;
 }
-
+.answerVar {
+    margin-top: 0px;
+}
 .singleTestContainer {
     border: 1px solid #999;
     padding: 5px 15px;
@@ -206,6 +208,9 @@ a{
 }
 .inputWrap {
     padding-top: 15px;
+    width: 100%;
+}
+.inputWrapAnsw {
     width: 100%;
 }
 .subHeader {

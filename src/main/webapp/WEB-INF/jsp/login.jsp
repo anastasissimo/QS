@@ -21,7 +21,7 @@
         </div>
         <div class="buttonContainer">
                 <div>
-                    <button formaction="register" class="registerButton">Register</button>
+                    <button formaction="register" class="registerButton">Sign Up</button>
                 </div>
 
             <a>

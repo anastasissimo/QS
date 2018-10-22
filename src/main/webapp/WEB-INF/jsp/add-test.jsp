@@ -125,7 +125,6 @@
 </script>
 
 <button class="greenButton">save test</button>
-<a href="teacher">назад к tutor</a>
 
 </body>
 </html>

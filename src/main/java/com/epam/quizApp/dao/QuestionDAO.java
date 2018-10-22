@@ -8,7 +8,6 @@ import java.util.List;
 public interface QuestionDAO {
 
     Boolean save(Question question);
-
     Boolean remove(Question question);
 
     Question getById(Integer questionId);

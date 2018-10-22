@@ -23,10 +23,10 @@
 
     <!-- active tab on page load gets checked attribute -->
     <input id="tab-tests" name="tab-group" class="tab" type="radio" checked>
-    <label for="tab-tests">One</label>
+    <label for="tab-tests">Доступные тесты</label>
 
     <input id="tab-results" name="tab-group" class="tab" type="radio">
-    <label for="tab-results">Two</label>
+    <label for="tab-results">Пройденные тесты</label>
 
     <div class="tab__content">
         <p class="containerHeader">Доступные тесты</p>
@@ -61,7 +61,6 @@
 
     </div>
 </div>
-<a href="select-user-type.jsp">назад к выбору типа юзера</a>
 
 </body>
 </html>

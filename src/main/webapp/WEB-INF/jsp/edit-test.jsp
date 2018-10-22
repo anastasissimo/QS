@@ -19,11 +19,12 @@
     </div>
 
 </div>
-<div class="mainContainer">
     <p class="containerHeader">Список всех квизов</p>
 
     <c:forEach items="${quizList}" var="quiz"></td>
-        <div class="singleTestContainer">
+    <div class="mainContainer">
+
+    <div class="singleTestContainer">
             <span style="margin-top: 5px"><c:out value="${quiz.title}" /></span>
             <a href="single-quiz?id=${quiz.id}">
                 <div>
@@ -44,11 +45,11 @@
                 </div>
             </a>
         </div>
+    </div>
     </c:forEach>
 
 </div>
 
-<a href="tutor.jsp">назад к tutor</a>
 
 </body>
 </html>
